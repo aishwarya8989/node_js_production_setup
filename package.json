@@ -2,10 +2,10 @@
   "name": "new2",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
     "dist":"npx tsc",
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/server.ts",
     "start": "nodemon build/index.js",
     "prepare": "husky"
   },
